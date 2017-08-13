@@ -53,9 +53,10 @@ h1 {
   color: lightgreen;
 }
 
-nav {
+nav, ul, li, a{
   display: inline;
   margin: 20px 10px 20px 10px;
+  text-align: left;
 }
 
 section .events{
@@ -63,12 +64,6 @@ section .events{
   margin-top: 20px;
   margin-bottom:20px;
 }
-.navButtons {
-  display: inline;
-  color:orange;
-  padding: 10px 20px 10px 20px;
-}
-
 
 footer, footer h3, footer div {
   /*box-sizing: border-box;*/
