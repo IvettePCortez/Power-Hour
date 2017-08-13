@@ -1,3 +1,63 @@
+header {
+  background-color: blue;
+  height: 100px;
+  font:center;
+}
+
+body {
+background-color: #D9D9FF;
+color: lightblue;
+}
+
+.banner {
+  position: fixed;
+  top: 100px;
+  left: 20px;
+}
 h1 {
   font-style: italic;
+  text-align: center;
+  color: lightgreen;
 }
+
+nav {
+  display: inline;
+  margin: 20px 10px 20px 10px;
+}
+
+.navButtons {
+  display: inline;
+  color:orange;
+  padding: 10px 20px 10px 20px;
+}
+
+
+footer, footer h3, footer div {
+  box-sizing: border-box;
+  background-color: green;
+  height:100px;
+}
+footer {
+  width: 33%;
+  float: left;
+  font-weight: bold;
+  font-size: 35px;
+  text-align: center;
+  display: inline;
+}
+
+footer h3 {
+  width: 100%;
+  color: orange;
+  font-size: 18px;
+  float: left;
+  text-align: center;
+}
+
+/*footer div {
+  width: 33%;
+  float: left;
+  font-weight: bold;
+  font-size: 35px;
+  text-align: center;
+}*/
