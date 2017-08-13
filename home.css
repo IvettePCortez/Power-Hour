@@ -1,19 +1,52 @@
+@import "compass/css3";
+@import "compass/css3/animation";
+
+body {
+  background-color: #97A1A4;
+  color: lightblue;
+  font-family:"Helvetica Neue", Helvetica, sans-serif; margin:0;
+  text-align:center;
+}
+
 header {
   background-color: blue;
-  height: 100px;
+  height: 50px;
   font:center;
 }
 
-body {
-background-color: #D9D9FF;
-color: lightblue;
+marquee {
+  padding-top: 15px;
+  font-size: 20px;
+  text-align: left;
 }
 
-.banner {
-  position: fixed;
-  top: 100px;
-  left: 20px;
+#heroBanner {
+  background-color:lavender;
+  height:100%;
+  max-height:100px;
+  width:100%;
+  clear:both;
+  position:absolute;
+  margin-bottom:20px;
 }
+
+/*#heroContent {
+  position: relative;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: box;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -ms-box-orient: vertical;
+  box-orient: vertical;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-box-pack: center;
+  box-pack: center;
+  height: 100%;
+}*/
+
 h1 {
   font-style: italic;
   text-align: center;
@@ -25,6 +58,11 @@ nav {
   margin: 20px 10px 20px 10px;
 }
 
+section .events{
+  position:relative;
+  margin-top: 20px;
+  margin-bottom:20px;
+}
 .navButtons {
   display: inline;
   color:orange;
@@ -33,12 +71,13 @@ nav {
 
 
 footer, footer h3, footer div {
-  box-sizing: border-box;
+  /*box-sizing: border-box;*/
   background-color: green;
   height:100px;
 }
+
 footer {
-  width: 33%;
+  width: 100%;
   float: left;
   font-weight: bold;
   font-size: 35px;
@@ -54,10 +93,10 @@ footer h3 {
   text-align: center;
 }
 
-/*footer div {
+footer div {
   width: 33%;
   float: left;
   font-weight: bold;
   font-size: 35px;
   text-align: center;
-}*/
+}
