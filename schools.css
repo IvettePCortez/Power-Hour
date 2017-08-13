@@ -1,0 +1,8 @@
+@import "compass/css3";
+@import "compass/css3/animation";
+
+nav, ul, li, a{
+  display: inline;
+  margin: 20px 10px 20px 10px;
+  text-align: left;
+}
